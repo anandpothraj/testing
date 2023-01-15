@@ -4,6 +4,9 @@
 .primaryBlue{
     color:#84a1ff;
 }
+.primaryGreen{
+    color:rgb(106, 225, 106);
+}
 .knowMore{
     font-size: 18px;
 }
@@ -41,7 +44,6 @@
     background-color: transparent !important;
     color:#ff5403 !important;
 }
-
 @media screen and (max-width: 767px) {
     .center{
         text-align: center !important;
