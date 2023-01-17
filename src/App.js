@@ -16,16 +16,18 @@ const App = () => {
   return (
     <Router>
         <Header/>
-        <Routes>
-          <Route path='/' element={<Home/>} exact/>
-          <Route path='/projects' element={<Projects/>} exact/>
-          <Route path='/blogs' element={<Blogs/>} exact/>
-          <Route path='/about' element={<About/>} exact/>
-          <Route path='/contact' element={<Contact/>} exact/>
-          <Route path='/report' element={<Report/>} exact/>
-          <Route path='/privacy-policy' element={<Privacy/>} exact/>
-          <Route path='/feedback' element={<Feedback/>} exact/>
-        </Routes>
+        <div className="bg-dark p-1">
+          <Routes>
+            <Route path='/' element={<Home/>} exact/>
+            <Route path='/projects' element={<Projects/>} exact/>
+            <Route path='/blogs' element={<Blogs/>} exact/>
+            <Route path='/about' element={<About/>} exact/>
+            <Route path='/contact' element={<Contact/>} exact/>
+            <Route path='/report' element={<Report/>} exact/>
+            <Route path='/privacy-policy' element={<Privacy/>} exact/>
+            <Route path='/feedback' element={<Feedback/>} exact/>
+          </Routes>
+        </div>
         <Footer/>
     </Router>
   )

@@ -5,7 +5,7 @@ import RecentProjects from '../components/Home/RecentProjects';
 
 const Home = () => {
   return (
-    <div className="bg-dark">
+    <div>
       <Profile/>
       <Work/>
       <RecentProjects/>
