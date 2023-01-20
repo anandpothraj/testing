@@ -17,7 +17,7 @@ const Profile = () => {
         <div className="w-100 w-md-50 m-auto p-2">
           <div className="center">
             <h5 className='my-2'>Hey!</h5>
-            <h1 className='my-2'>I'm <b className='primaryOrange'>Anand Pothraj</b></h1>
+            <h1 className='my-2'>I'm <b className='primaryOrange'>Mohit Soni</b></h1>
             <div className="d-flex m-auto">
             <div className='my-2 primaryBlue d-inline-flex mx-auto mx-md-0'>
               <TypeWriterEffect
